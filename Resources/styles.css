@@ -123,4 +123,10 @@ table {
 .navbar {
     grid-column-start: 2;
     grid-column-end: 3;
+    padding: 20px;
+}
+
+#name {
+    font-size: 20px;
+    font-weight: 700;
 }
