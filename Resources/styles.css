@@ -51,5 +51,47 @@ table {
 .wrapper {
     display: grid;
     grid-template-columns: 1fr 2fr;
+    margin: 20px;
+    
+}
+
+.navbar {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0;
+}
+
+.home li {
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+.settings {
+    display: flex;
+    flex-direction: column;
+}
+
+.settings li {
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+.sidebar {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--side-color);
+    color: white;
+}
+
+.cards {
+    grid-column-start: 2;
+    grid-column-end: 3;
 }
 
