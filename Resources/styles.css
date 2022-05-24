@@ -279,6 +279,10 @@ button {
     padding: 30px;
 }
 
+.anText {
+    padding: 20px 0;
+}
+
 .trending {
     grid-row-start: 3;
 }
