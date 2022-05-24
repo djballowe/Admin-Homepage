@@ -184,12 +184,13 @@ table {
 .hi {
     display: flex;
     flex-direction: column;
-    font-weight: 700;
+    font-weight: 400;
     margin: 30px 0;
 }
 
-.hi:last-child {
+.hi p:last-child {
     font-size: 20px;
+    font-weight: 700;
 }
 
 button {
@@ -202,4 +203,10 @@ button {
    font-weight: 600;
    font-size: .9rem;
    margin: 0 10px;
+}
+
+/* Project Cards */
+
+.cards h1 {
+    font-size: 20px;
 }
