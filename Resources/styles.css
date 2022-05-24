@@ -244,6 +244,10 @@ button {
     
 }
 
+.icons svg {
+    padding: 0 10px;
+}
+
 .super {
     display: flex;
     flex-direction: column;
@@ -257,7 +261,7 @@ button {
     height: 300px;
     border-left: 5px #efb22d solid;
     border-radius: 10px;
-    padding: 10px;
+    padding: 30px;
 }
 
 .announcements {
@@ -269,7 +273,7 @@ button {
 }
 
 .announcements {
-    grid-row-start: 2;
+    grid-row-start: 1;
 }
 
 .trending {
@@ -278,5 +282,18 @@ button {
 
 #an {
     grid-column-start: 3;
+}
+
+.AnnounceTheContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+#tren {
+    grid-row-start: 2;
+}
+
+.profiles {
+    grid-row-start: 3;
 }
 
