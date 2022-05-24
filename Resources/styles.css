@@ -130,3 +130,35 @@ table {
     font-size: 20px;
     font-weight: 700;
 }
+
+#searchbar {
+    height: 25px;
+    width: auto;
+    border-radius: 10px;
+    background-color: #83b3cf39;
+
+}
+
+.profilePic {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
