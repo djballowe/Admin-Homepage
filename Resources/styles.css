@@ -103,6 +103,11 @@ table {
     font-weight: 700;
 }
 
+.settings div {
+    display: flex;
+    align-items: center;
+}
+
 .settings li {
     margin: 20px 0;
     font-size: 20px;
