@@ -274,6 +274,9 @@ button {
 
 .announcements {
     grid-row-start: 1;
+    background-color: white;
+    border-radius: 15px;
+    padding: 30px;
 }
 
 .trending {
@@ -287,13 +290,19 @@ button {
 .AnnounceTheContainer {
     display: grid;
     grid-template-columns: 1fr;
+    
 }
 
 #tren {
+    grid-column-start: 3;
     grid-row-start: 2;
+    margin: 10px 0;
 }
 
 .profiles {
     grid-row-start: 3;
+    background-color: white;
+    border-radius: 15px;
+    padding: 30px;
 }
 
