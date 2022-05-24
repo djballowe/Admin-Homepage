@@ -51,7 +51,8 @@ table {
 
 .wrapper {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: auto;
 }
 
 /* Sidebar */
@@ -210,6 +211,7 @@ button {
 
 .cards {
     display: grid;
+    gap: 10px;
     grid-template-columns: 1fr 1fr 1fr;
     padding: 20px;
     background-color: #83b3cf39;
@@ -221,25 +223,45 @@ button {
     grid-row-start: 1;
     grid-row-end: 3;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(250px, 1fr));
     
 }
 
 .cards h1 {
     font-size: 18px;
-} 
+}
+
+.card {
+    background-color: white;
+}
+
+.border {
+    width: 10px;
+    height: 100px;
+    background-color: #efb22d;
+}
+
+.super {
+    display: flex;
+    flex-direction: column;
+}
 
 .text {
     display: flex;
-    flex-direction: column;
-    height: 100px;
-    width: auto;
+    height: 300px;
     box-shadow: grey;
     border: 1px grey solid;
+    border-radius: 10px;
+    padding: 10px;
 }
 
-.even {
-    grid-column-start: 2;
-    
+.announcements {
+    grid-column-start: 3;
 }
+
+.trending {
+    grid-column-start: 3;
+}
+
