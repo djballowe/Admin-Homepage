@@ -54,10 +54,7 @@ table {
     grid-template-columns: 1fr 2fr;
 }
 
-.navbar {
-    grid-column-start: 2;
-    grid-column-end: 3;
-}
+/* Sidebar */
 
 .sidebar {
     grid-row-start: 1;
@@ -93,8 +90,9 @@ table {
 }
 
 .home li {
-    margin: 20px 0;
+    margin: 15px 0;
     font-size: 20px;
+    padding: 0 30px;
 }
 
 .settings {
@@ -109,8 +107,10 @@ table {
 }
 
 .settings li {
-    margin: 20px 0;
+    margin: 15px 0;
     font-size: 20px;
+    padding: 0 30px;
+    
 }
 
 .cards {
@@ -118,3 +118,9 @@ table {
     grid-column-end: 3;
 }
 
+/* Header */
+
+.navbar {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
