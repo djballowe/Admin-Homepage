@@ -52,8 +52,6 @@ table {
 .wrapper {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    margin: 20px;
-    
 }
 
 .navbar {
@@ -61,10 +59,26 @@ table {
     grid-column-end: 3;
 }
 
+.sidebar {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--side-color);
+    color: white;
+    padding: 40px;
+}
+
+#logo {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
 .home {
     display: flex;
     flex-direction: column;
     margin: 50px 0;
+    font-weight: 700;
 }
 
 .home li {
@@ -75,20 +89,12 @@ table {
 .settings {
     display: flex;
     flex-direction: column;
+    font-weight: 700;
 }
 
 .settings li {
     margin: 20px 0;
     font-size: 20px;
-}
-
-.sidebar {
-    grid-row-start: 1;
-    grid-row-end: 3;
-    display: flex;
-    flex-direction: column;
-    background-color: var(--side-color);
-    color: white;
 }
 
 .cards {
