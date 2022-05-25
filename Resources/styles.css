@@ -272,7 +272,7 @@ button {
     background-color: white;
     border-radius: 15px;
     padding: 30px;
-    grid-row-start: 2;
+    grid-row-start: 1;
     grid-column-start: 3;
 }
 
@@ -295,8 +295,9 @@ button {
 
 .AnnounceTheContainer {
     display: grid;
-    grid-row-start: 3;
+    grid-row-start: 2;
     grid-template-columns: 1fr;
+    grid-template-rows: repeat(auto-fit, 1fr);
     
 }
 
@@ -307,7 +308,7 @@ button {
 }
 
 .profiles {
-    grid-row-start: 3;
+    grid-row-start: 5;
     background-color: white;
     border-radius: 15px;
     padding: 20px;
