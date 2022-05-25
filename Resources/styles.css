@@ -264,19 +264,16 @@ button {
     padding: 30px;
 }
 
-.announcements {
-    grid-column-start: 3;
-}
-
 .trending {
     grid-column-start: 3;
 }
 
 .announcements {
-    grid-row-start: 1;
     background-color: white;
     border-radius: 15px;
     padding: 30px;
+    grid-row-start: 2;
+    grid-column-start: 3;
 }
 
 .anText {
@@ -298,6 +295,7 @@ button {
 
 .AnnounceTheContainer {
     display: grid;
+    grid-row-start: 3;
     grid-template-columns: 1fr;
     
 }
@@ -317,5 +315,9 @@ button {
 
 .profile {
     padding: 15px 0;
+}
+
+.profile p:last-child {
+    color: rgba(52, 52, 52, 0.644);
 }
 
