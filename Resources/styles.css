@@ -312,6 +312,10 @@ button {
     grid-row-start: 3;
     background-color: white;
     border-radius: 15px;
-    padding: 30px;
+    padding: 20px;
+}
+
+.profile {
+    padding: 15px 0;
 }
 
