@@ -281,6 +281,11 @@ button {
 
 .anText {
     padding: 20px 0;
+    border-bottom: 1px rgba(52, 52, 52, 0.247) solid;
+}
+
+.anText p {
+    color: rgba(52, 52, 52, 0.644);
 }
 
 .trending {
